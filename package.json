@@ -1,0 +1,8 @@
+{
+  "name": "blcokchain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vaibhav7779/blcokchain.git",
+  "author": "Vaibhav <vaibhav.lokhande@myglamm.com>",
+  "license": "MIT"
+}
