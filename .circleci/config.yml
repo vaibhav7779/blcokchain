@@ -11,7 +11,7 @@ jobs:
             echo 'This is the delivery pipeline'
   Node-VB:
      docker: 
-        - image: alpine:3.7
+        - image: circleci/node:10-browsers
       steps:
        - run:
            name: Rocky
