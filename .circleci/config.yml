@@ -28,8 +28,5 @@ workflows:
               type: approval
               requires:
                 - Hello-World
-          - Run-With-Node:
-              requires:
-                - Hello-World
 
 
