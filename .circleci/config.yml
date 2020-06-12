@@ -24,6 +24,7 @@ workflows:
  Example_Workflow:
    jobs:
      - Hello-World
-     - I-Have-Code : 
-         requires: - Hello-World
+     - I-Have-Code:
+         requires:
+           - Hello-World
 
