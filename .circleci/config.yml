@@ -23,9 +23,20 @@ workflows:
  version: 2
  Example_Workflow:
    jobs:
-     - Hello-World
-     - I-Have-Code:
-        type: approval
-            requires:
-              - Hello-World
+          - Hello-World
+          - I-Have-Code:
+              requires:
+                - Hello-World
+          - Run-With-Node:
+              requires:
+                - Hello-World
+          - Hold-For-Approval:
+              type: approval
+              requires:
+                - Run-With-Node
+                - I-Have-Code
+          - Now-Complete:
+              requires:
+                - Hold-For-Approval
+
 
