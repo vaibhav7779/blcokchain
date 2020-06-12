@@ -16,4 +16,8 @@ jobs:
           command: |
             ls -al
             echo '^^^That should look familiar^^^'
+      - run:
+           name : Make way for the BOSS
+           command: | 
+               echo 'vaibhav the bosss'
            
