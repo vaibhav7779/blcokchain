@@ -9,3 +9,8 @@ jobs:
           command: |
             echo 'Hello World!'
             echo 'This is the delivery pipeline'
+workflows:
+ version: 2
+ Example_Workflow:
+   jobs:
+     - Hello-World
