@@ -17,7 +17,7 @@ jobs:
             ls -al
             echo '^^^That should look familiar^^^'
       - run:
-           name : Make way for the BOSS
+           name : Make way for the BOSS node
            command: | 
                node -v
            
